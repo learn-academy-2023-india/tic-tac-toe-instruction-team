@@ -1,6 +1,6 @@
 import React from "react"
 
-const Square = (props) => {
+const XPlayer = (props) => {
   return (
     <div className="grid"> 
         {props.board.map((value, index) => {
@@ -19,4 +19,4 @@ const Square = (props) => {
     </div>
   )
 }
-export default Square
+export default XPlayer
