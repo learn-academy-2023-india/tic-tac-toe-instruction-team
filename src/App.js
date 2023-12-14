@@ -27,7 +27,7 @@ const App = () => {
     // toggles between X and O and updates the current player value
     setCurrentPlayer(currentPlayer === "X" ? "O" : "X")
   }
-
+  
   return (
     <>
       <h1>Tic Tac Toe</h1>
