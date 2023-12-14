@@ -1,8 +1,10 @@
-import React from 'react'
+import React from "react"
 
-const Square = (props) => {
+const Square = ({ marker, index, markSquare }) => {
   return (
-    <div className="square"></div>
+    <div className="square" onClick={() => markSquare(index)}>
+      {marker}
+    </div>
   )
 }
 export default Square
