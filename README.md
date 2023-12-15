@@ -63,10 +63,10 @@ There is an interesting approach to the [Tic Tac Toe win condition in React](htt
 
 **Acceptance Criteria**
 
-- Can see a three-by-three grid game board
-- Player one can click on a square to mark it with an X
-- Player two can click on a square to mark it with an O
-- Players cannot click on a square that has already been marked
+- Can see a three-by-three grid game board (done)
+- Player one can click on a square to mark it with an X (done)
+- Player two can click on a square to mark it with an O (done)
+- Players cannot click on a square that has already been marked (done)
 
 **Story 2**: In order to play tic tac toe, as the user of the application, I should be able to win the game by marking three squares with the same mark in a horizontal, vertical, or diagonal row. I can restart the game at any time.
 
@@ -74,9 +74,9 @@ There is an interesting approach to the [Tic Tac Toe win condition in React](htt
 
 **Acceptance Criteria**
 
-- Can see a notice displaying which player won
-- Game play cannot continue after the game has been won
-- Can click on a restart button that will clear the game board
+- Can see a notice displaying which player won (done)
+- Game play cannot continue after the game has been won (done)
+- Can click on a restart button that will clear the game board (done)
 
 **Story 3**: In order to play tic tac toe, as the user of the application, I should not be able to continue playing the game if all the squares are marked. If neither player wins and all the squares are marked, I should see a notification for a "cats game."
 
