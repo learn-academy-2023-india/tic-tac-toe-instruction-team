@@ -2,12 +2,17 @@ h1 {
   text-align: center;
 }
 
+.restart-button {
+  padding: 10px;
+  text-align: center;
+}
+
 .square {
   border: 2px solid black;
-  height: 100px;
-  width: 100px;
   font-size: 5rem;
+  height: 100px;
   text-align: center;
+  width: 100px;
 }
 
 .squares {
@@ -15,4 +20,9 @@ h1 {
   flex-wrap: wrap;
   margin: 0 auto;
   width: 320px;
+}
+
+.winner {
+  text-align: center;
+  padding: 10px;
 }
