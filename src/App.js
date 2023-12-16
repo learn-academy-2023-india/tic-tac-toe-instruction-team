@@ -9,6 +9,8 @@ const App = () => {
   const [currentPlayer, setCurrentPlayer] = useState("❌")
   // creates a winner that starts as null
   const [winner, setWinner] = useState(null)
+  // creates a variable that checks for all the values of squares being null
+  const catsGame = squares.every((value) => value !== null)
 
   // function that handles the marking of the square
   const markSquare = (currentSquare) => {
@@ -89,6 +91,7 @@ const App = () => {
         <button onClick={restartGame}>Restart Game</button>
       </div>
       {winner && <p className="winner">The winner is {winner}!</p>}
+      {catsGame && !winner && <p className="winner">Cats Game!</p>}
     </>
   )
 }
